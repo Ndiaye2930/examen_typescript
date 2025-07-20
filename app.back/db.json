@@ -1,0 +1,20 @@
+{
+  "fournisseurs": [
+    { "id": 1, "nom": "Fournisseur A" },
+    { "id": 2, "nom": "Fournisseur B" }
+  ],
+  "articles": [
+    { "id": 1, "nom": "Article 1" },
+    { "id": 2, "nom": "Article 2" }
+  ],
+  "approvisionnements": [
+    {
+        "id":1,"reference":"APP-2023-001", "date": "2023-05-10", "fournisseurId": 1, "article": 1, "quantite": 10
+    },
+    {
+        "id":2, "reference":"APP-2023-001","date": "2023-05-10", "fournisseurId": 2, "article": 1, "quantite": 5
+    }
+    
+  ]
+}
+   
